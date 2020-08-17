@@ -4,12 +4,13 @@
     "baseUrl": "../../../src",
     "experimentalDecorators": true,
     "jsx": "react",
-    "module": "es6",
+    "module": "esnext",
     "moduleResolution": "node",
     "outDir": "../../../.cache",
     "skipLibCheck": true,
     "strictNullChecks": true,
-    "target": "es6"
+    "target": "es6",
+    "strict": true
   },
   "exclude": ["../../../node_modules"],
   "include": ["../../../src"]
